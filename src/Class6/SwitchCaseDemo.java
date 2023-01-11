@@ -13,7 +13,7 @@ public class SwitchCaseDemo {
                 System.out.println("Burger");
                 break;
             case "afghanistan":
-                System.out.println("Qabuli");
+                System.out.println("Kebab");
                 break;
             case "italy":
                 System.out.println("Pasta");
