@@ -1,0 +1,27 @@
+Notes;
+
+2D Arrays;
+
+are Arrays that contain 1D arrays.
+why we should learn about 2d arrays.
+because they allow us to store multiple 1D arrays which give us more flexibility to store data.
+for example if we have to store from Excel files we can use 2D arrays.
+
+Syntax to create 2D arrays;
+First Way:
+DataType [][] nameOfArray = new DataType[Sizeof Rows][];
+Second Way:
+DataType [][] nameOfArray = {{data, data, data,},{data, data, data,},{data, data, data}};
+
+
+OOP: is nothing but some set of rules that if we follow we achieve below:
+1) Representing real life entities becomes easier.
+2) Code repetition is minimized
+3) Changing existing code and adding new features becomes easier.
+4) Help write secure code.
+
+Google searched for OOP
+(In Java, OOP stands for Object-Oriented Programming.
+It is a programming paradigm that uses objects and their interactions to design applications and computer programs.
+OOP concepts include classes, objects, inheritance, polymorphism, encapsulation and abstraction.
+These concepts help in creating reusable, maintainable and organized code)

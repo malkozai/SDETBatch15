@@ -1,0 +1,86 @@
+Methods in Java:
+It is just a collection of java statements and blocks of code like if else loop printlns etc.
+
+why should we learn about methods:
+1. it allows us to simplify large code as we can divide the logic into smaller parts by creating methods for them for them
+build those methods one by one and later on combine them to build the complete application.
+2. Methods allow us to re-use code.
+3. Methods allow us to be flexible.
+
+How can we create Methods?
+There are 2 types of methods. A) built-in and B) user defined.
+
+Built-in methods?
+The methods which are designed by Java developers for example the println(), nextInt(), methods in the scanner class
+length() present in String class they are all built-in methods.
+
+User Defined Methods:
+The methods that we write.
+Methods which return something when called and others are methods which do not return anything when called.
+
+int add(int a, int b){
+return a+b;
+}
+int => return types of a method
+add => name of the method
+(int a, int b) => parameters of the method or the input to the method
+{ => body of the method
+}
+Rules:
+return type and the values that we are returning from a method should match
+we can only assign methods to variables of same type.
+
+===========================
+
+There are 3 types of variable with respect to their scope
+
+1. Local Variables:
+if a variable is created inside a block of code like a method, loop, if condition etc anything that has curly bracket.
+they are called local variables.
+
+Upside of Local variable:
+Local variable occupy the memory for the shortest period of time. you should always try to write code with the
+help of local variables.
+
+Downside of Local Variable:
+They can't be accessed outside of the block in which they are created. They have have very limited scope.
+
+2. Instance Variables:
+all the variables which are created inside a class but outside of methods are called instance variables
+
+Upside of Instance Variables:
+we can use them in all the instance method of that class. Their scope is larger than local variables.
+Downside of Instance Variables:
+They stay longer in the memory as compared to local variables.
+
+3. Static Variables:
+all the variables which are outside of methods and have the static keywords are called static variable
+
+
+Summary:
+In Java, variables can be classified into three types: local, instance, and static.
+1.    Local Variables: Local variables are defined inside a method or block of code.
+      They are only accessible within the method or block of code where they are declared and are not visible outside of it.
+      They are also known as automatic or stack variables. They do not have a default value, so you must initialize them before using them.
+2.    Instance Variables: Instance variables are defined in a class but outside of any method.
+      They are associated with an instance of the class and have a default value.
+      They can be accessed by any method in the class and are also known as non-static fields.
+3.    Static Variables: Static variables are also defined in a class but outside of any method and are shared
+      among all instances of the class. They are associated with the class itself rather than any specific instance.
+      They can be accessed by any method in the class and are also known as class variables.
+      They have a default value and can be accessed directly by calling className.variableName.
+
+
+HOMEWORK
+
+1) Create a method that will take 2 parameters as a numbers and prints which number is larger.
+2) Create a method that will take a number and prints whether the number is even or odd.
+3) Create a method that will print whether given String is palindrome or not.
+4)Create a method that will say Hello in different language based on the country that will passed when method is executed
+5)Write a method to return whether given number is prime or not?
+6)Create  class Student that will have a method getGrade. Your method should accept the score of a student and return a grade:
+score > 90 - A
+score >80 - B
+score >70 - C
+score > 50 - D
+anything else - F
